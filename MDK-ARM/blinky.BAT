@@ -1,0 +1,12 @@
+SET PATH=D:\Programmen\Keil_v5\ARM\ARMCC\Bin;D:\Programmen\STMicroelectronics\STM32Cube\STM32CubeMX\;C:\Python27\;C:\Python27\Scripts;C:\Programme\Anaconda3;C:\Programme\Anaconda3\Library\mingw-w64\bin;C:\Programme\Anaconda3\Library\usr\bin;C:\Programme\Anaconda3\Library\bin;C:\Programme\Anaconda3\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Programmen\MATLAB\R2016b\runtime\win64;D:\Programmen\MATLAB\R2016b\bin;D:\Programmen\MATLAB\R2016b\polyspace\bin;D:\MiniGW\bin;D:\Programmen\Microchip\xc8\v1.41\bin;C:\WINDOWS\System32\OpenSSH\;D:\Go\bin;C:\Program Files\LLVM\bin;D:\Programmen\Gitextensions\;D:\Programmen\Git\cmd;C:\Ruby24-x64\bin;D:\Ruby24-x64\bin;C:\Users\franc\AppData\Local\Microsoft\WindowsApps;D:\Programmen\Modeltech_pe_edu_10.4a\win32pe_edu;D:\Programmen\intelFPGA_lite\17.1\modelsim_ase\win32aloem;D:\Modeltech_pe_edu_10.4a\win32pe_edu;C:\Users\franc\AppData\Local\atom\bin;C:\Users\franc\AppData\Local\Microsoft\WindowsApps;C:\Users\franc\go\bin;D:\Go;D:\Go\bin;;C:\Users\franc\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2\bin;;C:\Program Files\Docker Toolbox;C:\Program Files\Docker Toolbox;C:\Program Files\Docker Toolbox;C:\Program Files\Java\jre1.8.0_121\bin
+SET CPU_TYPE=STM32F407VGTx
+SET CPU_VENDOR=STMicroelectronics
+SET UV2_TARGET=blinky
+SET CPU_CLOCK=0x0A037A00
+"D:\Programmen\Keil_v5\ARM\ARMCC\Bin\ArmAsm" --Via "blinky\startup_stm32f407xx._ia"
+"D:\Programmen\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "blinky\main.__i"
+"D:\Programmen\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "blinky\gpio.__i"
+"D:\Programmen\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "blinky\stm32f4xx_it.__i"
+"D:\Programmen\Keil_v5\ARM\ARMCC\Bin\ArmLink" --Via "blinky\blinky.lnp"
+"D:\Programmen\Keil_v5\ARM\ARMCC\Bin\fromelf.exe" "blinky\blinky.axf" --i32combined --output "blinky\blinky.hex"
+D:\Programmen\Keil_v5\ARM\ARMCC\bin\fromelf.exe --bin --output=blinky.bin D:\Dokumenten\STM32F4\Blinky_Discovery\MDR_ARM\blinky\blinky.axf
