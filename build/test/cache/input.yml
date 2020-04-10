@@ -70,10 +70,10 @@
   :testfail: ".fail"
   :dependencies: ".d"
 :unity:
-  :vendor_path: D:/Dokumenten/STM32F4/Blinky_Discovery/tests/vendor/ceedling/vendor
+  :vendor_path: D:/Dokumenten/STM32F4/Blinky_Discovery/vendor/ceedling/vendor
   :defines: []
 :cmock:
-  :vendor_path: D:/Dokumenten/STM32F4/Blinky_Discovery/tests/vendor/ceedling/vendor
+  :vendor_path: D:/Dokumenten/STM32F4/Blinky_Discovery/vendor/ceedling/vendor
   :defines: []
   :includes: []
   :mock_prefix: mock_
@@ -92,7 +92,7 @@
   :verbosity: 3
   :unity_helper: false
 :cexception:
-  :vendor_path: D:/Dokumenten/STM32F4/Blinky_Discovery/tests/vendor/ceedling/vendor
+  :vendor_path: D:/Dokumenten/STM32F4/Blinky_Discovery/vendor/ceedling/vendor
   :defines: []
 :test_runner:
   :includes: []
