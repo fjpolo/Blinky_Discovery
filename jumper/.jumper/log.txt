@@ -15,34 +15,3 @@
 [Debug] (UartHandlerBase) uart is disabled
 [Debug] (main) Program is running...
 [Debug] (Program) Run
-[Error] (Program)  TC: 3465 PC: 0x800037a
-
-	Vlab internal error:
-	Looks like something went wrong.
-	GPIO: Unsupported direction mode. Pin: 0, direction: 0x3.
-	Please contact us at support@jumper.io for more information.
-Please wait...
-
-[Debug] (Program) Num of instructions: 3465
-[Debug] (Program) Time spent: 1.574
-[Debug] (Program) Mhz: 0.0022014
-[Debug] (Program) ~Program
-[Debug] (Stm32GPIOHandler) ~Stm32GPIOHandler()
-[Debug] (Stm32GPIOHandler) ~Stm32GPIOHandler()
-[Debug] (Stm32GPIOHandler) ~Stm32GPIOHandler()
-[Debug] (Stm32GPIOHandler) ~Stm32GPIOHandler()
-[Debug] (Stm32GPIOHandler) ~Stm32GPIOHandler()
-[Debug] (Stm32GPIOHandler) ~Stm32GPIOHandler()
-[Debug] (Stm32GPIOHandler) ~Stm32GPIOHandler()
-[Debug] (Stm32GPIOHandler) ~Stm32GPIOHandler()
-[Debug] (Stm32GPIOHandler) ~Stm32GPIOHandler()
-[Debug] (UartHandlerBase) ~UartHandlerBase()
-[Debug] (UartHandlerBase) ~UartHandlerBase()
-[Debug] (UartHandlerBase) ~UartHandlerBase()
-[Debug] (UartHandlerBase) ~UartHandlerBase()
-[Debug] (UartHandlerBase) ~UartHandlerBase()
-[Debug] (ConnectionManager) ~ConnectionManager
-[Debug] (TcpServer) ~TcpServer()
-[Debug] (TcpServer) Stop()
-[Debug] (TcpServer) ClientHandler exit
-[Debug] (TcpServer) StartAccepting closed()
