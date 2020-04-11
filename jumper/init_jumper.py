@@ -9,4 +9,5 @@ v.load("blinky.bin")
 print("blinky.bin loaded!")
 
 v.run_for_ms(1000)
+print("\n")
 v.stop()
