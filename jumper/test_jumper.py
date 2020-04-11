@@ -13,7 +13,6 @@ v.load("blinky.bin")
 print("blinky.bin loaded!")
 
 v.run_for_ms(1000)
-print("\n\r")
 v.on_pin_level_event(pins_listener)
 print('ran for one second')
 
