@@ -10,7 +10,8 @@ pipeline {
         }
         stage('Simulator Test'){
             steps{
-                bat 'echo Simulating...'
+                bat 'echo Initializing Jumper...'
+                bat 'cd D:/Dokumenten/STM32F4/Blinky_Discovery/jumper && (python init_jumper.py && echo \n) '
             }
         }
         stage('Build'){
