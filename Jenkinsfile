@@ -10,8 +10,9 @@ pipeline {
         }
         stage('Simulator Test'){
             steps{
-                bat 'echo Initializing Jumper...'
-                bat 'cd D:/Dokumenten/STM32F4/Blinky_Discovery/jumper && (python init_jumper.py && echo \n) '
+                bat 'echo Testing with Jumper...'
+				//bat 'cd D:/Dokumenten/STM32F4/Blinky_Discovery/jumper && python test_jumper.py '
+				bat 'echo Need to replace jumper. Deprecated.'
             }
         }
         stage('Build'){
